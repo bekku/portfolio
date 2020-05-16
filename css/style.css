@@ -2,9 +2,13 @@
 
 /* 共通部分
 ------------------------------- */
-
+table{
+  margin-left: auto;
+  margin-right: auto;
+}
 th,td{
   font-size: 100%;
+  text-align: center;
 }
 .about{
   text-align: center;
@@ -25,6 +29,9 @@ a {
 img {
     max-width: 100%;
 }
+.center1{
+  text-align:center;
+}
 .wrapper {
     max-width: 1100px;
     margin: 0 auto;
@@ -32,7 +39,7 @@ img {
 }
 /* 見出し */
 .page-title {
-    font-size: 5rem;
+    font-size: 4rem;
     font-family: 'Philosopher', serif;
     text-transform: uppercase;
     font-weight: normal;
@@ -44,13 +51,20 @@ img {
     font-weight: normal;
     text-align: center;
 }
+.sub-discription {
+    font-size: 2.375rem;
+    padding: 0 8px 8px;
+    border-bottom: 2px #ff4422 solid;
+    font-weight: normal;
+    text-align: center;
+}
 /* MENU
 ------------------------------- */
 #menu {
     min-height: 100vh;
 }
 .menu-content {
-    max-width: 560px;
+    max-width: 900px;
     margin-top: 10%;
 }
 .menu-content .page-title {
